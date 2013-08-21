@@ -14,4 +14,50 @@ results
 npm-debug.log
 node_modules
 
+# Java class files
+*.class
+
+# built application files
+*.apk
+*.ap_
+
+# Java class files
+*.class
+
+# generated files - android project subfolder
+platforms/android/bin/
+platforms/android/gen/
+platforms/android/assets/
+
+# generated files
+bin/
+gen/
+
+# IOS / Xcode
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+IOS/www/
+
+# OSX
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
 !.gitignore
