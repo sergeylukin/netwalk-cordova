@@ -4,6 +4,7 @@
 # Define the DocPad Configuration
 docpadConfig = {
 	# ...
+	outPath: "www"
 }
 
 # Export the DocPad Configuration
