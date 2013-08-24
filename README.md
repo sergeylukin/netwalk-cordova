@@ -6,13 +6,16 @@ The application is based on the [Apache Cordova Hello World][cordova-app] app.
 
 ### Run Application
 
-    /www/index.html
+  - Compile project with `docpad generate`
+  - Start server with `docpad server` and open `http://localhost:9778/www` in
+    browser (consider installing [Ripple](http://ripple.incubator.apache.org)
+    browser extension to simulate mobile device environment in browser)
+
 
 ### PhoneGap/Build
 
-Create a new app with the following repository:
-
-    https://github.com/sergeylukin/cordova.docpad.git
+- Install NPM `phonegap` package
+- `cd ./out && phonegap deploy`
 
 
 ## Developing
@@ -23,19 +26,7 @@ Create a new app with the following repository:
   [Ripple](http://ripple.incubator.apache.org/) extension (find and install an
   extension for your browser first) on that page
 - Modify files in `src` directory and watch the result in browser
-- Run ./deploy (UNIX shell script) to push ready-to-deploy cordova/phonegap
-  project to `master` branch and to update `source` branch
 
-
-## TODO
-
-- Currently `www` directory contents is part of repository which makes this
-  project ready for immediate deploy and try at any time, however it's not the
-  best option from Version Control System point of view so it would be nice to
-  find a better option - **Done** (abstracted docpad project from
-  cordova-specific files. Now docpad is a wrapper which generates
-  cordova-ready directory instead of being part of that directory, much cleaner
-  structure)
 
 Copyright &copy; 2013+ All rights reserved.
 
