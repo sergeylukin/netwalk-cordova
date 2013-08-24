@@ -1,3 +1,6 @@
+# Ignore docpad-compiled project
+out/
+
 lib-cov
 *.seed
 *.log
