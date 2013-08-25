@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+
+# Push main source
+git push origin source && \
+# Compile phonegap-ready files and push them to separate branch
+docpad generate && \
+cd ./out && \
+remote_repo=`git config remote.origin.url` && \
+remote_branch="master" && \
+git init && \
+git add . && \
+# Ignore "platforms" directory as phonegap only requires WWW files
+if [ -d platforms ]; then git rm -r platforms --cached; fi && \
+git commit -m'compile files for phonegap' && \
+git push $remote_repo master:$remote_branch --force && \
+rm -fr .git && \
+cd ../
