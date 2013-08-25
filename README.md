@@ -53,6 +53,8 @@ The application is based on the [Apache Cordova Hello World][cordova-app] app.
 
 ## References
 
+- [Cordova docs](http://cordova.apache.org/docs/en/edge/)
+- [Phonegap Build docs](https://build.phonegap.com/docs)
 - [Configure](https://build.phonegap.com/docs/config-xml) your cordova/phonegap app
 
 
