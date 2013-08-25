@@ -51,6 +51,14 @@ The application is based on the [Apache Cordova Hello World][cordova-app] app.
 - Modify files in `src` directory and watch the result in browser
 
 
+## Debugging
+
+- I highly recommend using Phonegap remote Debug server. It works great and
+  enables debugging an app on runtime on real device. For more details on setup
+  and usage refer to [their
+  documentation](https://build.phonegap.com/docs/advanced-debugging)
+
+
 ## References
 
 - [Cordova docs](http://cordova.apache.org/docs/en/edge/)
