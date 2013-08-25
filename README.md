@@ -1,4 +1,4 @@
-# A Hello World [DocPad](http://docpad.org) project ready for Cordova deploy
+# A Hello World [DocPad](http://docpad.org) project ready for Cordova/Phonegap deploy
 
 The application is based on the [Apache Cordova Hello World][cordova-app] app.
 
