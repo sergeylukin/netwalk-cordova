@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget xmlns="http://www.w3.org/ns/widgets"
   xmlns:cdv="http://cordova.apache.org/ns/1.0"
-  id="com.example.hello"
+  id="com.example.netwalk"
   versionCode="1"
   version="0.0.1" >
-    <name>HelloWorld</name>
+    <name>Netwalk</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Netwalk game
     </description>
-    <author email="dev@callback.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="contact@sergeylukin.org" href="http://cordova.io">
+        Sergey Lukin
     </author>
     <content src="index.html" />
     <access origin="*" />

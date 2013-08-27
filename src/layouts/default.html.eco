@@ -27,11 +27,16 @@
         <title><%= @document.title %></title>
 
         <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/netwalk.css" />
         <%- @getBlock("styles").toHTML() %>
     </head>
     <body>
         <%- @content %>
         <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/underscore.js"></script>
+        <script type="text/javascript" src="js/sylvester.js"></script>
+        <script type="text/javascript" src="js/netwalk.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <%- @getBlock("scripts").toHTML() %>
     </body>
